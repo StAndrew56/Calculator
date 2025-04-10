@@ -1,0 +1,104 @@
+*{
+    background-color: #151b23;
+
+}
+.titleCard{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin-top: 50px;
+    font-family: monospace;
+    font-size: xxx-large;
+    color: white;
+}
+
+
+
+#calculator{
+    width: 500px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    border: 2px solid white;
+    flex: 1;
+    background-color: black;
+}
+
+
+#calculator .displayBox{
+    border: 3px solid white;
+    padding: 50px;
+    width: 350px;
+    height: 200px;
+    margin-top: 10px;
+    background-color: lightslategray;
+}
+
+#calculator .buttons{
+    background-color: black;
+    margin-top: 10px;
+    width: 450px;
+    flex: 1;
+}
+
+
+#calculator button{
+    background-color: #151b23;
+    color: white;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 10px;
+    flex: 1;
+}
+
+#calculator .rowOne,
+#calculator .rowTow,
+#calculator .rowThree,
+#calculator .rowFour,
+#calculator .rowFive{
+    background-color: black;
+}
+
+#calculator .enlargeAC{
+    width: 145px;
+}
+#calculator .enlargeEqual{
+    width: 170px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+
+
+.footer{
+    color: white;
+    background-color: #151b23;
+    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: x-small;
+    margin-top: 75px;
+}
+
+.footer h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 40px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
