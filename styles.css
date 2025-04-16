@@ -1,6 +1,5 @@
 *{
     background-color: #151b23;
-
 }
 .titleCard{
     display: flex;
@@ -28,20 +27,37 @@
 }
 
 
-#calculator .displayBox{
+#displayBox{
     border: 3px solid white;
-    padding: 50px;
-    width: 350px;
-    height: 200px;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
     margin-top: 10px;
     background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 3px;
 }
 
-#calculator .buttons{
+
+#displayBox div{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: xx-large;
+    background-color: lightslategray;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+#buttons{
     background-color: black;
     margin-top: 10px;
     width: 450px;
-    flex: 1;
 }
 
 
@@ -51,7 +67,6 @@
     box-sizing: border-box;
     padding: 30px;
     margin: 10px;
-    flex: 1;
 }
 
 #calculator .rowOne,
@@ -60,6 +75,7 @@
 #calculator .rowFour,
 #calculator .rowFive{
     background-color: black;
+    margin-left: 20px;
 }
 
 #calculator .enlargeAC{
